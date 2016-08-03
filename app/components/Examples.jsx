@@ -3,7 +3,10 @@ var React = require('react');
 // Refactored using stateless React component
 var Examples = (propers) =>{
     return (
+        <div>
         <h3>Examples Component!</h3>
+            <p>Welcome to the examples page.</p>
+        </div>
     )
 };
 module.exports = Examples;
